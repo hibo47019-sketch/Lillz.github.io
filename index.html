@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lillz Skincare - Natural Beauty Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>✨ Lillz Skincare</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Discover Your Best Skin</h2>
+            <p>Premium skincare products crafted with natural ingredients</p>
+            <button class="cta-button">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>Hydrating Cleanser</h3>
+                    <p>Gentle formula that removes impurities without stripping natural oils</p>
+                    <span class="price">$24.99</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <h3>Rose Toner</h3>
+                    <p>Balances skin pH and prepares skin for serums and moisturizers</p>
+                    <span class="price">$18.99</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <h3>Vitamin C Serum</h3>
+                    <p>Brightens complexion and reduces the appearance of fine lines</p>
+                    <span class="price">$34.99</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    <h3>Night Cream</h3>
+                    <p>Rich formula that repairs and rejuvenates skin while you sleep</p>
+                    <span class="price">$28.99</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+                    <h3>SPF 50 Sunscreen</h3>
+                    <p>Broad-spectrum protection with lightweight, non-greasy formula</p>
+                    <span class="price">$22.99</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #ff9a56 0%, #ff6a88 100%);"></div>
+                    <h3>Face Mask</h3>
+                    <p>Detoxifying mask for deep cleansing and glowing skin</p>
+                    <span class="price">$16.99</span>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Why Choose Lillz?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">🌿</div>
+                    <h3>Natural Ingredients</h3>
+                    <p>Made with pure, natural ingredients sourced responsibly</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🧪</div>
+                    <h3>Dermatologist Tested</h3>
+                    <p>Clinically proven formulas safe for all skin types</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">♻️</div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Sustainable packaging that's recyclable and biodegradable</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">✅</div>
+                    <h3>Cruelty-Free</h3>
+                    <p>No animal testing, certified by international standards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"My skin has never looked better! The results were visible within 2 weeks."</p>
+                    <p class="author">- Sarah M.</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Finally found products that work for my sensitive skin without irritation."</p>
+                    <p class="author">- Jessica L.</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Absolutely love the natural ingredients and the amazing customer service!"</p>
+                    <p class="author">- Emma T.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Lillz Skincare. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
